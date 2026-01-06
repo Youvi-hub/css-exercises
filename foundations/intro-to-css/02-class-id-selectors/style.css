@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+.first, .cool {
+    background-color: rgba(251, 154, 186, 0.757);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#big {
+    color: hsl(221, 90%, 50%);
+    font-size: 36px;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+#green {
+    background-color: #79f287;
+    font-weight: bold;
+    font-size: 24px;
+}
