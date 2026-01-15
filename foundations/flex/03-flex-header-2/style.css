@@ -14,8 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 8px;
+  padding: 10px;
 }
 
 .profile-image {
@@ -46,18 +45,19 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  align-items: flex-start;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 20px;
-
+  gap: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .left, .right {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
