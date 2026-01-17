@@ -9,6 +9,15 @@ body {
 
 img {
   width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 button {
@@ -16,6 +25,15 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 input {
@@ -78,5 +96,5 @@ input {
 }
 
 .content {
- 
+  margin: 200px;
 }
